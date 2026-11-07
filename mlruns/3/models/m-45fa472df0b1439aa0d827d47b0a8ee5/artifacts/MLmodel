@@ -1,0 +1,25 @@
+artifact_path: "file:c:/Users/Filipe/Desktop/P\xF3s Fiap/Exercitando/mlruns/3/models/m-45fa472df0b1439aa0d827d47b0a8ee5/artifacts"
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.17
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.feature_selection._univariate_selection.f_classif
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.18.0
+model_id: m-45fa472df0b1439aa0d827d47b0a8ee5
+model_size_bytes: 1901970
+model_uuid: m-45fa472df0b1439aa0d827d47b0a8ee5
+prompts: null
+run_id: 6759cf4c96ea47858c1409e8b8d97260
+utc_time_created: '2026-11-07 17:33:14.023751'
